@@ -15,7 +15,10 @@ class ColorsTableViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func tempButtonTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "ToColorsDetailViewController", sender: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
