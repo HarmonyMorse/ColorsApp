@@ -13,6 +13,7 @@
 		45CAF0A629664E9100EC2AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CAF0A529664E9100EC2AFF /* Assets.xcassets */; };
 		45CAF0A929664E9100EC2AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CAF0A729664E9100EC2AFF /* LaunchScreen.storyboard */; };
 		45CAF0B32969F8D100EC2AFF /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAF0B22969F8D100EC2AFF /* ColorsTableViewController.swift */; };
+		45CAF0B52969FAB800EC2AFF /* ColorsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAF0B42969FAB800EC2AFF /* ColorsDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		45CAF0A829664E9100EC2AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45CAF0AA29664E9100EC2AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45CAF0B22969F8D100EC2AFF /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
+		45CAF0B42969FAB800EC2AFF /* ColorsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				45CAF09C29664E8E00EC2AFF /* AppDelegate.swift */,
 				45CAF09E29664E8E00EC2AFF /* SceneDelegate.swift */,
 				45CAF0A229664E8E00EC2AFF /* Main.storyboard */,
+				45CAF0B42969FAB800EC2AFF /* ColorsDetailViewController.swift */,
 				45CAF0B22969F8D100EC2AFF /* ColorsTableViewController.swift */,
 				45CAF0A529664E9100EC2AFF /* Assets.xcassets */,
 				45CAF0A729664E9100EC2AFF /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				45CAF09D29664E8E00EC2AFF /* AppDelegate.swift in Sources */,
 				45CAF09F29664E8E00EC2AFF /* SceneDelegate.swift in Sources */,
+				45CAF0B52969FAB800EC2AFF /* ColorsDetailViewController.swift in Sources */,
 				45CAF0B32969F8D100EC2AFF /* ColorsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
